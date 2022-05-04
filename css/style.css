@@ -187,11 +187,11 @@ h4{
 }
 .checked {
     
-    border: 4px solid blue;
+    border: 4px solid #0061ff;
     
 }
 .unchecked {
-    border-color: grey;
+    border-color: #e9e9eb;
 }
 
 /*Colonne*/
@@ -199,21 +199,21 @@ h4{
 {
     width: 62%;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #f1f1f2;
     display: flex;
     margin-top: 40px;
     height: 1100px;
 }
 .col{
     width: calc(  100% / 3 );
-    border: 1px solid black;
+    border: 1px solid #f1f1f2;
 
 }
 .title{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #f1f1f2;
 }
 .information{
     padding: 0 40px;
@@ -228,7 +228,7 @@ h4{
     margin-top: 10px;
 }
 .mounth span{
-    color: lightgrey;
+    color: #798692;
 }
 .user,
 .btn,
@@ -242,17 +242,18 @@ h4{
     margin-top: 20px;
 }
  .information .btn{
-     padding-left: 91px;
+     padding-left: 41px;
      margin-left: 0;
-     margin-right: 60px;
+     margin-right: 50px;
+     background-color:  #0061ff;
  }
  .btn a{
      text-decoration: none;
  }
 
  .line{
-    border: 1px solid grey;
-    width: 40%;
+    border: 1px solid #dcdcde;
+    width: 20%;
  }
 .plan ul{
     display: initial;
@@ -261,11 +262,18 @@ h4{
 .plan li{
     margin-top: 20px;
     padding: 10px 0;
+    
 }
 .plan li span{
     font-size: 20px;
-    color: blue;
+    color: #0e69ff;
+    font-weight: bold;
+    
 }
+.buy a{
+    color: #0e69ff;
+}
+
 /*Enterprise*/
 .container-enterprise{
     margin-top: 550px;
@@ -273,7 +281,7 @@ h4{
 }
 .container-enterprise .container{
     background-color: transparent;
-    border: none;
+    border-color:#f1f1f2;
     height: 400px;
 }
 .container-enterprise .container-col{
@@ -283,6 +291,7 @@ h4{
     display: flex;
     margin-top: 40px;
     height: 250px;
+    border-color: #f1f1f2;
 }
 .container-enterprise .container-col .col{
     width: 100%;
@@ -294,15 +303,20 @@ h4{
 .enterprise h3{
     margin-top: 50px;
     margin-left: 30px;
+    font-size: 20px;
 }
 .container-enterprise .container-col h4{
     margin-left: 30px;
     margin-top: -15px;
+    font-size: 18px;
 }
 .container-enterprise .container-col p{
-    margin-left: 8px;
+    margin-left: 30px;
     margin-top: 40px;
-    font-size: 15px;
+    font-size: 18px;
+}
+.enterprise .btn{
+    background-color: #0061ff ;
 }
 /*Contatto Partner*/
 .partner1 .container {
@@ -335,14 +349,14 @@ h4{
 }
 .col2 .btn{
     background-color: transparent;
-    border: 1px solid grey;
+    border: 1px solid #292929;
     padding: 10px 0px;
     margin-right:300px;
     
     text-align: center;
 }
 .col2 a{
-    color: black;
+    color: #1c1c1c;
    
 }
 .col2 p{
@@ -381,6 +395,7 @@ h4{
 }
 .operation h2{
     text-align: left;
+    font-size: 50px;
 }
 .operation img{
     width: 100%;
@@ -396,7 +411,8 @@ h4{
 /*INFO CLIENT*/
 .info-client{
     border: none;
-    margin-top: 600px;
+    margin-top: 700px;
+    padding-bottom: 90px;
 }
 .info-client .container{
     background-color: transparent;
@@ -412,10 +428,10 @@ h4{
 .info-client h2{
     padding-top: 60px;
     margin-bottom: 30px;
+    font-size: 50px;
 }
 .info-client a{
-    
-    color: blue;
+    color:#307eff;
 }
 /*Partner*/
 .partner{
@@ -427,7 +443,6 @@ h4{
 .partner.container{
     background-color: transparent;
     border: none;
-    
 }
 .partner .cold , .cols{
     height: 100%;
@@ -450,8 +465,8 @@ h4{
 }
 .partner .square1{
     text-align: center;
-    padding-top: 15%;
-    background-color: lightgreen;
+    padding-top: 13%;
+    background-color: #a2d39b;
   
 }
 .partner .square2{
@@ -459,9 +474,9 @@ h4{
     top: 0;
     right: 0;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 11%;
    
-    background-color: brown;
+    background-color: #61082b;
     
 }
 .partner .square3{
@@ -469,16 +484,16 @@ h4{
     bottom: 0;
     left: 0;
     text-align: center;
-    padding-top: 20%;
-    background-color: lightblue;
+    padding-top: 15%;
+    background-color: #0093ce;
 }
 .partner .square4{
     position: absolute;
     bottom: 0;
     right: 0;
     text-align: center;
-    padding-top: 15%;
-    background-color: red;
+    padding-top: 11%;
+    background-color: #ff1c1c;
 }
 .partner .square1,.square2
 ,.square3, .square4{
@@ -487,7 +502,7 @@ h4{
     height: 50%;
 }
 .partner img{
-    width: 60%;
+    width: 45%;
     filter: invert(100%);
 }
 .partner .square1{
@@ -521,17 +536,28 @@ h4{
     
 }
 .cols .square2{
-    padding-top: 25%;
+    padding-top: 18%;
+    background-color: #b4d0e7;
 }
 .cols .square1{
     border: none;
-    padding-top: 20%;
+    padding-top: 15%;
+    background-color: #d5001f;
+}
+.cols .square3{
+    background-color: #0d2481 ;
+}
+.cols .square4{
+    background-color: #ffd830;
 }
 /*Azienda*/
 .azienda{
     margin-top: 0;
-   background-color: lightblue;
+   background-color:#b4d0e7;
+   height: 300px;
+   padding-top: 50px;
 }
+
 .azienda .col{
     display: flex;
     justify-content: space-between;
@@ -540,20 +566,26 @@ h4{
   padding-right: 20px;
   margin-bottom: 110px;
   text-align: center; 
-  border: 1px solid grey;
+  border: none;
   background-color: white;
   margin-top: 50px;
   padding-top: 10px;
 }
 .azienda a{
-    color: grey;
+    color: black;
     padding-top: 10px;
+}
+.azienda h2{
+    color: #61082b;
 }
 /*QUESTION*/
 .question{
     margin-top: 0;
 }
-
+.col hr{
+    color: #e7e7e8;
+    
+}
 .question h2{
     margin-top: 50px;
    
@@ -566,9 +598,10 @@ h4{
     display: flex;
     justify-content: space-between;
 }
-.question i{
+.question a{
     margin-top: 40px;
     margin-right: 20px;
+    color:grey
 }
 /*FOOTER*/
 footer{
@@ -612,7 +645,7 @@ footer{
     border: 1px solid grey;
     height: 0;
     width: 9%;
-    margin-left: 140px;
+    margin-left: 190px;
     margin-top: 80px;
 }
 .language{
@@ -628,8 +661,9 @@ footer{
     color: grey;
     padding-right: 2px;
 }
-.triangle i{
-    filter: invert(1);
+.language a{
+    color: grey;
     padding-left: 2px ;
-    font-size: 10px;
+    font-size: 15px;
+    margin-top: 2px;
 }
