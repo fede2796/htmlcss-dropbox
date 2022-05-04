@@ -189,5 +189,74 @@ h4{
 }
 .unchecked {
     border-color: grey;
-   
+}
+
+/*Colonne*/
+.conteiner-col
+{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 40px;
+    height: 900px;
+}
+.col{
+    width: calc(  100% / 3 );
+    border: 1px solid black;
+
+}
+.title{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.information{
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+.prices{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.mounth{
+    margin-top: 10px;
+}
+.user,
+.btn,
+.plan{
+    margin-top: 40px;
+}
+.tera,
+.function,
+.buy,
+.line{
+    margin-top: 20px;
+}
+ .information .btn{
+     padding-left: 91px;
+     margin-left: 0;
+     margin-right: 60px;
+ }
+ .btn a{
+     text-decoration: none;
+ }
+
+ .line{
+    border: 1px solid grey;
+    width: 40%;
+ }
+.plan ul{
+    display: initial;
+    
+}
+.plan li{
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.plan li span{
+    font-size: 20px;
+    color: blue;
 }
