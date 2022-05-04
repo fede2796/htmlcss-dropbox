@@ -570,3 +570,66 @@ h4{
     margin-top: 40px;
     margin-right: 20px;
 }
+/*FOOTER*/
+footer{
+    background-color: black;
+    height: 500px;
+    margin-top: 450px;
+    padding-top: 70px;
+}
+.footer-container{
+    border: none;
+    margin: 0 auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+}
+.footer-col{
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+}
+.content{
+    width: calc(100%/5);
+    border:none;
+    
+}
+.content h4{
+    color: white;
+}
+.footer-menu{
+    margin-top: 20px;
+}
+.footer-menu a{
+    color: white;
+    text-decoration: none;
+}
+.footer-menu li{
+    padding: 7px 0;
+}
+.space{
+    border: 1px solid grey;
+    height: 0;
+    width: 9%;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.language{
+    height: 0;
+    margin-top: 60px;
+    
+}
+.language i{
+    filter: invert(1);
+    padding-right: 2px;
+}
+.language span{
+    color: grey;
+    padding-right: 2px;
+}
+.triangle i{
+    filter: invert(1);
+    padding-left: 2px ;
+    font-size: 10px;
+}
