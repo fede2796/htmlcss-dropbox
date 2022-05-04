@@ -489,3 +489,29 @@ h4{
     width: 60%;
     color: white;
 }
+.imgc{
+    padding-left: 50px;
+    padding-top: 40px ;
+}
+.imgc img{
+    width: 25%;
+}
+.colc .line{
+    margin-left: 50px ;
+    width: 10%;
+    margin-top: 30px;
+}
+.partner p{
+    margin-top: 50px;
+    padding-left: 50px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.partner span{
+    font-size: 18px;
+    padding-left: 50px;
+    
+}
+.cols .square2{
+    padding-top: 25%;
+}
