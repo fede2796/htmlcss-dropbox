@@ -348,12 +348,13 @@ h4{
 }
 .col2 p{
     padding-left: 23px;
+    font-size: 15px;
 }
 .col2 .btn{
     background-color: transparent;
     border: 1px solid #292929;
-    padding: 10px 0px;
-    margin-right:300px;
+    padding: 5px 20px;
+    margin-right:200px;
     
     text-align: center;
 }
@@ -585,7 +586,7 @@ h4{
     margin-top: 0;
 }
 .col hr{
-    color: #e7e7e8;
+    color: lightgray;
     
 }
 .question h2{
