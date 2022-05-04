@@ -221,7 +221,9 @@ h4{
     padding: 0 40px;
     margin-top: 20px;
 }
-
+.col h5{
+    font-size: 15px;
+}
 .prices{
     margin-top: 20px;
     font-weight: bold;
