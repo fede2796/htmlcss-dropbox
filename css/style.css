@@ -25,6 +25,7 @@ header{
     top: 0;
     left: 0;
     border: none;
+    z-index: 1;
 }
 .header-container{
     display: flex;
@@ -304,12 +305,12 @@ h4{
     font-size: 15px;
 }
 /*Contatto Partner*/
-.partner .container {
+.partner1 .container {
     background-color: transparent;
     border: none;
     height: 400px;
 }
-.partner .container-col{
+.partner1 .container-col{
     width: 62%;
     margin: 0 auto;
     border: none;
@@ -317,7 +318,7 @@ h4{
     margin-top: 40px;
     height: 500px;
 }
-.partner .col1{
+.partner1 .col1{
     width: 65%;
     border: none;
 }
@@ -420,23 +421,23 @@ h4{
 .partner{
     height: 400px;
     width: 100%;
-    border: 1px solid black;
+    border: none;
     display: flex;
 }
 .partner.container{
     background-color: transparent;
-    border: 1px solid black;
+    border: none;
     
 }
 .partner .cold , .cols{
     height: 100%;
     width: 30%;
-    border: 1px solid red;
+    border: none;
 }
 .partner .colc{
     height: 100%;
     width: 40%;
-    border: 1px solid green;
+    border: none;
 }
 .partner .container-col{
     width: 100%;
@@ -449,9 +450,9 @@ h4{
 }
 .partner .square1{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 15%;
     background-color: lightgreen;
-    
+  
 }
 .partner .square2{
     position: absolute;
@@ -487,14 +488,21 @@ h4{
 }
 .partner img{
     width: 60%;
-    color: white;
+    filter: invert(100%);
+}
+.partner .square1{
+    border: 15px solid #d0e9cd;
 }
 .imgc{
     padding-left: 50px;
     padding-top: 40px ;
 }
-.imgc img{
+.colc img{
     width: 25%;
+    filter: none;
+}
+.colc{
+    background-color: lightgrey;
 }
 .colc .line{
     margin-left: 50px ;
@@ -514,4 +522,51 @@ h4{
 }
 .cols .square2{
     padding-top: 25%;
+}
+.cols .square1{
+    border: none;
+    padding-top: 20%;
+}
+/*Azienda*/
+.azienda{
+    margin-top: 0;
+   background-color: lightblue;
+}
+.azienda .col{
+    display: flex;
+    justify-content: space-between;
+}
+.azienda .btn{
+  padding-right: 20px;
+  margin-bottom: 110px;
+  text-align: center; 
+  border: 1px solid grey;
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+.azienda a{
+    color: grey;
+    padding-top: 10px;
+}
+/*QUESTION*/
+.question{
+    margin-top: 0;
+}
+
+.question h2{
+    margin-top: 50px;
+   
+}
+.questions h4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+}
+.question i{
+    margin-top: 40px;
+    margin-right: 20px;
 }
