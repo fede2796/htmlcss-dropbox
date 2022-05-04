@@ -392,3 +392,26 @@ h4{
 .operation span{
     text-decoration: underline;
 }
+/*INFO CLIENT*/
+.info-client{
+    border: 1px solid black;
+    margin-top: 600px;
+}
+.info-client .container{
+    background-color: transparent;
+    border: none;
+    height: 200px;
+}
+.info-client .col{
+    width: 62%;
+    height: 200px;
+    margin: 0 auto;
+}
+.info-client h2{
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+.info-client a{
+    
+    color: blue;
+}
