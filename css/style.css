@@ -71,7 +71,8 @@ header a{
     margin-left: 30px;
     text-decoration: none;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    
 }
 .btn-small{
     padding: 7px 15px;
@@ -243,13 +244,13 @@ h4{
 .user,
 .btn,
 .plan{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .tera,
 .function,
 .buy,
 .line{
-    margin-top: 20px;
+    margin-top: 10px;
 }
  .information .btn{
      padding-left: 31px;
@@ -276,8 +277,8 @@ h4{
     display: inline-block;
    
 }
-.plan li span{
-    font-size: 20px;
+.plan li i{
+    font-size: 17px;
     color: #0e69ff;
     font-weight: bold;
     
@@ -285,6 +286,31 @@ h4{
 .buy a{
     color: #0e69ff;
 }
+.tera i{
+    float: left;
+    margin: 4px;
+}
+.tera span{
+    font-size: 15px;
+}
+.tera{
+    margin-top: 20px;
+}
+.function{
+    margin-top: 20px;
+}
+.function span{
+    font-size: 15px;
+}
+.function i{
+    float: left;
+    margin: 4px;
+}
+.plan i{
+    float: left;
+    margin: 4px;
+}
+
 
 /*Enterprise*/
 .container-enterprise{
