@@ -154,11 +154,12 @@ h4{
 /*Piano tariffe*/
 .container-tarif{
     margin-top: 300px;
-    
+  
 }
 .container-tarif .container{
     background-color: transparent;
 }
+
 .container-tarif h2{
     font-size: 50px;
     text-align: center;
@@ -201,15 +202,20 @@ h4{
 {
     width: 62%;
     margin: 0 auto;
-    border: 1px solid #f1f1f2;
+    border: none;
     display: flex;
     margin-top: 40px;
     height: 1100px;
+    
 }
 .col{
-    width: calc(  100% / 3 );
+    width: calc(100% / 3) ;
     border: 1px solid #f1f1f2;
-
+    margin-right: 80px;
+    
+}
+.col:last-child{
+    margin-right: 0;
 }
 .title{
     text-align: center;
@@ -246,9 +252,9 @@ h4{
     margin-top: 20px;
 }
  .information .btn{
-     padding-left: 41px;
+     padding-left: 31px;
      margin-left: 0;
-     margin-right: 50px;
+     margin-right: 10px;
      background-color:  #0061ff;
  }
  .btn a{
