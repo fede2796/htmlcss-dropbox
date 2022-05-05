@@ -328,7 +328,7 @@ h4{
     border: 1px solid black;
     display: flex;
     margin-top: 40px;
-    height: 250px;
+    height: 300px;
     border-color: #f1f1f2;
 }
 .container-enterprise .container-col .col{
@@ -352,6 +352,7 @@ h4{
     margin-left: 30px;
     margin-top: 40px;
     font-size: 18px;
+
 }
 .enterprise .btn{
     background-color: #0061ff ;
